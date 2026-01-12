@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: gilory;
+    color:#2e2c2c;
 }
 html,
 body{
@@ -26,4 +27,25 @@ body{
     height: 200px;
     width: 200px;
     background-color: lightseagreen;
+}
+#nav{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+#part2{
+    display: flex;
+    gap: 50px;
+}
+h1{
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    white-space: nowrap; 
+    /* to get text in a single line */
 }

@@ -21,3 +21,9 @@ yoyo makes an animation reverse back to its starting state after it finishes—l
 ## stagger
 
 stagger is used when you want to animate multiple elements one after another instead of all at once, giving a smooth, flowing effect.
+
+## Gsap Timeline
+
+gsap.timeline()
+
+A GSAP timeline lets you sequence multiple animations in a clean, controlled way—like directing scenes in a movie 🎬 instead of firing animations randomly.
