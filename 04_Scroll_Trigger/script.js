@@ -61,5 +61,6 @@ gsap.from("#page5 #box",{
         end:"top 30%",
         // scrub:true,
         scrub:2, //can give true/false or value between 1-5
+        pin:true,
     },
 })
