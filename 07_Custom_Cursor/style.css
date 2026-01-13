@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;  
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cursor{
+    height: 30px;
+    width: 30px;
+    /* opacity: 0.6; */
+    background-color: #f2f2f3;
+    border-radius: 50%;
+    position: fixed; /* So that the cursor comes on every page we create in case of multiple pages  */
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+
+#image{
+    height: 45vh;
+    width: 80vh;
+    background-color: rgb(99, 98, 126);
+    position: relative;
+}
+
+#image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#overlay{
+    background-color: #f0eded00;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
