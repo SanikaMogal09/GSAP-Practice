@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body{
+    background-color: #0b0b0b;
+    color: rgb(15, 13, 13);
+}
+
+#page1, #page2, #page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw 0;
+}
+
+#move{
+    background-color:#d1f749;
+    display: flex;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap:3vw;
+    padding: 0 1.5vw;
+    /* background: red; */
+    transform: translateX(-100%);
+    
+}
+
+.marque h1{
+    font-size: 4vw;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.marque i{
+    font-size: 60px;
+    padding: 10px;
+}
